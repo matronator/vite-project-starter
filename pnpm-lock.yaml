@@ -12,8 +12,8 @@ dependencies:
     specifier: ^18.2.0
     version: 18.2.0
   react-bootstrap:
-    specifier: ^2.6.0
-    version: 2.7.0(@types/react@18.0.27)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.8.0
+    version: 2.8.0(@types/react@18.0.27)(react-dom@18.2.0)(react@18.2.0)
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^18.0.24
     version: 18.0.27
   '@types/react-dom':
-    specifier: ^18.0.8
-    version: 18.0.10
+    specifier: ^18.2.6
+    version: 18.2.6
   '@vitejs/plugin-react':
     specifier: ^2.2.0
     version: 2.2.0(vite@3.2.5)
@@ -281,8 +281,8 @@ packages:
       '@babel/types': 7.20.7
     dev: true
 
-  /@babel/runtime@7.20.13:
-    resolution: {integrity: sha512-gt3PKXs0DBoL9xCvOIIZ2NEqAGZqHjAnmVbfQtB620V0uReIQutpel14KcneZuer7UioY8ALKZ7iocavvzTNFA==}
+  /@babel/runtime@7.22.6:
+    resolution: {integrity: sha512-wDb5pWm4WDdF6LFUde3Jl8WzPA+3ZbxYqkC6xAXuD3irdEHN1k0NfTRrJD8ZD378SJ61miMLCqIOXYhd8x+AJQ==}
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.11
@@ -391,25 +391,21 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@popperjs/core@2.11.6:
-    resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
-    dev: false
-
   /@popperjs/core@2.11.8:
     resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
     dev: false
 
-  /@react-aria/ssr@3.4.1(react@18.2.0):
-    resolution: {integrity: sha512-NmhoilMDyIfQiOSdQgxpVH2tC2u85Y0mVijtBNbI9kcDYLEiW/r6vKYVKtkyU+C4qobXhGMPfZ70PTc0lysSVA==}
+  /@react-aria/ssr@3.7.0(react@18.2.0):
+    resolution: {integrity: sha512-bfufjg4ESE5giN+Fxj1XIzS5f/YIhqcGc+Ve+vUUKU8xZ8t/Xtjlv8F3kjqDBQdk//n3mluFY7xG1wQVB9rMLQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
     dependencies:
-      '@swc/helpers': 0.4.14
+      '@swc/helpers': 0.5.1
       react: 18.2.0
     dev: false
 
-  /@restart/hooks@0.4.8(react@18.2.0):
-    resolution: {integrity: sha512-Ivvp1FZ0Lja80iUTYAhbzy+stxwO7FbPHP95ypCtIh0wyOLiayQywXhVJ2ZYP5S1AjW2GmKHeRU4UglMwTG2sA==}
+  /@restart/hooks@0.4.9(react@18.2.0):
+    resolution: {integrity: sha512-3BekqcwB6Umeya+16XPooARn4qEPW6vNvwYnlofIYe6h9qG1/VeD7UvShCWx11eFz5ELYmwIEshz+MkPX3wjcQ==}
     peerDependencies:
       react: '>=16.8.0'
     dependencies:
@@ -417,27 +413,27 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@restart/ui@1.5.4(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-ziNtXY2PrjXrRUfR1D/ry1v1i5IF+kfMcH9d1kIcU2lOELfmDsVb+fzbyEDz3yKvKuqkphTunVDuLdYRJ0YsAg==}
+  /@restart/ui@1.6.6(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-eC3puKuWE1SRYbojWHXnvCNHGgf3uzHCb6JOhnF4OXPibOIPEkR1sqDSkL643ydigxwh+ruCa1CmYHlzk7ikKA==}
     peerDependencies:
       react: '>=16.14.0'
       react-dom: '>=16.14.0'
     dependencies:
-      '@babel/runtime': 7.20.13
-      '@popperjs/core': 2.11.6
-      '@react-aria/ssr': 3.4.1(react@18.2.0)
-      '@restart/hooks': 0.4.8(react@18.2.0)
+      '@babel/runtime': 7.22.6
+      '@popperjs/core': 2.11.8
+      '@react-aria/ssr': 3.7.0(react@18.2.0)
+      '@restart/hooks': 0.4.9(react@18.2.0)
       '@types/warning': 3.0.0
       dequal: 2.0.3
       dom-helpers: 5.2.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      uncontrollable: 7.2.1(react@18.2.0)
+      uncontrollable: 8.0.2(react@18.2.0)
       warning: 4.0.3
     dev: false
 
-  /@swc/helpers@0.4.14:
-    resolution: {integrity: sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==}
+  /@swc/helpers@0.5.1:
+    resolution: {integrity: sha512-sJ902EfIzn1Fa+qYmjdQqh8tPsoxyBz+8yBKC2HKUxyezKJFwPGOn7pv4WY6QuQW//ySQi5lJjA/ZT9sNWWNTg==}
     dependencies:
       tslib: 2.5.0
     dev: false
@@ -449,8 +445,8 @@ packages:
   /@types/prop-types@15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
 
-  /@types/react-dom@18.0.10:
-    resolution: {integrity: sha512-E42GW/JA4Qv15wQdqJq8DL4JhNpB3prJgjgapN3qJT9K2zO5IIAQh4VXvCEDupoqAwnz0cY4RlXeC/ajX5SFHg==}
+  /@types/react-dom@18.2.6:
+    resolution: {integrity: sha512-2et4PDvg6PVCyS7fuTc4gPoksV58bW0RwSxWKcPRcHZf0PRUGq03TKcD/rUHe3azfV6/5/biUBJw+HhCQjaP0A==}
     dependencies:
       '@types/react': 18.0.27
     dev: true
@@ -595,7 +591,7 @@ packages:
   /dom-helpers@5.2.1:
     resolution: {integrity: sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA==}
     dependencies:
-      '@babel/runtime': 7.20.13
+      '@babel/runtime': 7.22.6
       csstype: 3.1.1
     dev: false
 
@@ -990,8 +986,8 @@ packages:
       react-is: 16.13.1
     dev: false
 
-  /react-bootstrap@2.7.0(@types/react@18.0.27)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-Jcrn6aUuRVBeSB6dzKODKZU1TONOdhAxu0IDm4Sv74SJUm98dMdhSotF2SNvFEADANoR+stV+7TK6SNX1wWu5w==}
+  /react-bootstrap@2.8.0(@types/react@18.0.27)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-e/aNtxl0Z2ozrIaR82jr6Zz7ss9GSoaXpQaxmvtDUsTZIq/XalkduR/ZXP6vbQHz2T4syvjA+4FbtwELxxmpww==}
     peerDependencies:
       '@types/react': '>=16.14.8'
       react: '>=16.14.0'
@@ -1000,9 +996,9 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@babel/runtime': 7.20.13
-      '@restart/hooks': 0.4.8(react@18.2.0)
-      '@restart/ui': 1.5.4(react-dom@18.2.0)(react@18.2.0)
+      '@babel/runtime': 7.22.6
+      '@restart/hooks': 0.4.9(react@18.2.0)
+      '@restart/ui': 1.6.6(react-dom@18.2.0)(react@18.2.0)
       '@types/react': 18.0.27
       '@types/react-transition-group': 4.4.5
       classnames: 2.3.2
@@ -1046,7 +1042,7 @@ packages:
       react: '>=16.6.0'
       react-dom: '>=16.6.0'
     dependencies:
-      '@babel/runtime': 7.20.13
+      '@babel/runtime': 7.22.6
       dom-helpers: 5.2.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
@@ -1135,11 +1131,19 @@ packages:
     peerDependencies:
       react: '>=15.0.0'
     dependencies:
-      '@babel/runtime': 7.20.13
+      '@babel/runtime': 7.22.6
       '@types/react': 18.0.27
       invariant: 2.2.4
       react: 18.2.0
       react-lifecycles-compat: 3.0.4
+    dev: false
+
+  /uncontrollable@8.0.2(react@18.2.0):
+    resolution: {integrity: sha512-/GDx+K1STGtpgTsj5Dj3J51YaKxZDblbCQHTH1zHLuoBEWodj6MjtRVv3TUijj1JYLRLSFsFzN8NV4M3QV4d9w==}
+    peerDependencies:
+      react: '>=16.14.0'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /update-browserslist-db@1.0.10(browserslist@4.21.5):
