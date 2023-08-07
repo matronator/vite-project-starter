@@ -38,8 +38,8 @@ devDependencies:
     specifier: ^8.4.25
     version: 8.4.25
   postcss-nesting:
-    specifier: ^12.0.0
-    version: 12.0.0(postcss@8.4.25)
+    specifier: ^12.0.1
+    version: 12.0.1(postcss@8.4.25)
   typescript:
     specifier: ^5.0.3
     version: 5.1.6
@@ -934,8 +934,8 @@ packages:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
     dev: true
 
-  /postcss-nesting@12.0.0(postcss@8.4.25):
-    resolution: {integrity: sha512-knqwW65kxssmyIFadRSimaiRyLVRd0MdwfabesKw6XvGLwSOCJ+4zfvNQQCOOYij5obwpZzDpODuGRv2PCyiUw==}
+  /postcss-nesting@12.0.1(postcss@8.4.25):
+    resolution: {integrity: sha512-6LCqCWP9pqwXw/njMvNK0hGY44Fxc4B2EsGbn6xDcxbNRzP8GYoxT7yabVVMLrX3quqOJ9hg2jYMsnkedOf8pA==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss: ^8.4
