@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.9.0",
-    "@types/react": "^18.2.21",
+    "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.14",
     "@vitejs/plugin-react": "^4.1.1",
     "autoprefixer": "^10.4.16",
