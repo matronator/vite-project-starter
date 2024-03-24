@@ -15,14 +15,14 @@ A minimal starter template for Vite projects. This template includes:
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org/)
 - [PostCSS](https://postcss.org/)
-- [Bootstrap](https://getbootstrap.com/)
+- [Mantine](https://mantine.dev/)
 
 ## Installing <a name = "installing"></a>
 
 Run the following commands to get started:
 
 ```
-pnpm dlx degit matronator/vite-project-starter#main my-project
+pnpm dlx degit matronator/vite-project-starter#mantine my-project
 ```
 
 Or click on the "Use this template" button on the GitHub page.
