@@ -4,50 +4,48 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-importers:
+dependencies:
+  bootstrap:
+    specifier: ^5.3.3
+    version: 5.3.3(@popperjs/core@2.11.8)
+  react:
+    specifier: ^18.2.0
+    version: 18.2.0
+  react-bootstrap:
+    specifier: ^2.10.2
+    version: 2.10.2(@types/react@18.2.61)(react-dom@18.2.0)(react@18.2.0)
+  react-dom:
+    specifier: ^18.2.0
+    version: 18.2.0(react@18.2.0)
 
-  .:
-    dependencies:
-      bootstrap:
-        specifier: ^5.3.2
-        version: 5.3.2(@popperjs/core@2.11.8)
-      react:
-        specifier: ^18.3.1
-        version: 18.3.1
-      react-bootstrap:
-        specifier: ^2.10.2
-        version: 2.10.2(@types/react@18.3.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      react-dom:
-        specifier: ^18.3.1
-        version: 18.3.1(react@18.3.1)
-    devDependencies:
-      '@types/node':
-        specifier: ^20.14.1
-        version: 20.14.1
-      '@types/react':
-        specifier: ^18.3.3
-        version: 18.3.3
-      '@types/react-dom':
-        specifier: ^18.3.0
-        version: 18.3.0
-      '@vitejs/plugin-react':
-        specifier: ^4.3.1
-        version: 4.3.1(vite@5.2.12(@types/node@20.14.1))
-      autoprefixer:
-        specifier: ^10.4.19
-        version: 10.4.19(postcss@8.4.39)
-      postcss:
-        specifier: ^8.4.39
-        version: 8.4.39
-      postcss-nesting:
-        specifier: ^12.1.0
-        version: 12.1.0(postcss@8.4.39)
-      typescript:
-        specifier: ^5.5.3
-        version: 5.5.3
-      vite:
-        specifier: ^5.2.12
-        version: 5.2.12(@types/node@20.14.1)
+devDependencies:
+  '@types/node':
+    specifier: ^20.10.2
+    version: 20.10.2
+  '@types/react':
+    specifier: ^18.2.61
+    version: 18.2.61
+  '@types/react-dom':
+    specifier: ^18.2.17
+    version: 18.2.17
+  '@vitejs/plugin-react':
+    specifier: ^4.2.1
+    version: 4.2.1(vite@5.1.4)
+  autoprefixer:
+    specifier: ^10.4.19
+    version: 10.4.19(postcss@8.4.32)
+  postcss:
+    specifier: ^8.4.32
+    version: 8.4.32
+  postcss-nesting:
+    specifier: ^12.1.0
+    version: 12.1.0(postcss@8.4.32)
+  typescript:
+    specifier: ^5.3.3
+    version: 5.3.3
+  vite:
+    specifier: ^5.1.4
+    version: 5.1.4(@types/node@20.10.2)
 
 packages:
 
@@ -510,8 +508,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
 
-  bootstrap@5.3.2:
-    resolution: {integrity: sha512-D32nmNWiQHo94BKHLmOrdjlL05q1c8oxbtBphQFb9Z5to6eGRDCm0QgeaZ4zFBHzfg2++rqa2JkqCcxDy0sH0g==}
+  /bootstrap@5.3.3(@popperjs/core@2.11.8):
+    resolution: {integrity: sha512-8HLCdWgyoMguSO9o+aH+iuZ+aht+mzW0u3HIMzVu7Srrpv7EBBxTnrFlSCskwdY1+EOFQSm7uMJhNQHkdPcmjg==}
     peerDependencies:
       '@popperjs/core': ^2.11.8
 
