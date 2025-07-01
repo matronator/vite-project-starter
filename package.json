@@ -28,7 +28,7 @@
     "typescript": "^5.5.3",
     "vite": "^6.0.0",
     "postcss": "^8.4.39",
-    "postcss-nesting": "^13.0.0"
+    "postcss-nesting": "^13.0.2"
   },
   "scripts": {
     "build": "tsc && vite build",
